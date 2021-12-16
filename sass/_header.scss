@@ -1,0 +1,153 @@
+.header-top{
+    position: relative;
+    text-align: center;
+    overflow: hidden; 
+    
+    padding: 15px 10px;
+    vertical-align: middle;
+
+    .top-img{
+        position: relative;
+        z-index: 1;
+       
+
+        img{
+            position: absolute;
+            left: 50%;
+            top: -20px;
+            width: calc(100% + 24px);
+            max-width: none;
+            min-width: 600px;
+            transform: translate(-50%,0);
+            z-index: 0;
+        }
+
+
+    }
+
+    h5{
+        position: relative;
+        z-index: 1;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 2px !important;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    height: 100px;
+    background-color: rgba(19,31,53,1);
+    display: flex;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+
+        
+        
+    }
+    
+   
+
+
+
+    .logo{
+        img{
+            width: 160px;
+        }
+    }
+    .search{
+        display: flex;
+        background-color: rgba(19,31,53,1);
+
+
+
+
+
+        .category{
+            width: 150px;
+            border: none;
+        }
+    }
+
+
+    .right{
+        display: flex;
+        color: white;
+        background-color: rgba(19,31,53,1);
+        .icons{
+            margin-left: 15px;
+            .icon-heart{
+                margin-right: 10px;
+                position: relative;
+                i::after{
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    background-color: red;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -4px;
+                    right: -7px;
+                }
+            }
+            .icon{
+                position: relative;
+                margin-right: 10px;
+                i::after{
+                    content: "1";
+                    width: 10px;
+                    height: 10px;
+                    background-color: red;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -4px;
+                    right: -7px;
+                    font-size: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 3px;
+                }
+
+            }
+        }
+       
+    }
+}
+.headerBottom{
+    height: 50px;
+    background-color:rgba(19,31,53,1); 
+    margin-top: 1px;
+
+    .container{
+       
+
+
+        .bar2{
+            height: 48px;
+            float: right;
+        }
+
+        
+
+        a{
+            color: aliceblue !important;
+        }
+       
+       
+    }
+}
